@@ -42,6 +42,8 @@ public class PnrController {
 		
 		pnr.setPassenger(passenger);
 		
+		System.out.println("Hii git welcomes you!!!!");
+		
 		return pnr;
 		
 		
