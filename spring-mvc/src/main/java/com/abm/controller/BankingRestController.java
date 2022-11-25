@@ -16,8 +16,8 @@ public class BankingRestController {
     
     @RequestMapping("/banking")
     public Account details(@RequestParam("acno") int acno) {
-            Account account = bankingService.detail(acno);
-            return account;
+            Account account3 = bankingService.detail(acno);
+            return account3;
     }
 
 }
